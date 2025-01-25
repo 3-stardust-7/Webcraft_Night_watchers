@@ -1,12 +1,10 @@
-import GameCarousal from './components/gameCarousal';
+import React from 'react'
+import Navbar from './components/Navbar'
+//import Home from './pages/Home'
 
-function App() {
-  
-
-  return (
-    <>
-      <GameCarousal />
-    </>
+const App = () => {
+  return (<>
+  <div><Navbar/></div></>
   )
 }
 
